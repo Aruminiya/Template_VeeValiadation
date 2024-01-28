@@ -13,7 +13,7 @@ Object.keys(VeeValidateRules).forEach((rule) => {
   VeeValidate.defineRule(rule, VeeValidateRules[rule]);
 });
 
-// 讀取外部的資源
+// 讀取語系外部的資源
 VeeValidateI18n.localize({
   zh_TW,
 });
